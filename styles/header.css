@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: var(--vertical-padding) var(--horizontal-padding);
+
+  font-family: 'Core Sans C 45';
+  color: var(--foreground);
+
+  a {
+    color: var(--foreground);
+  }
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.logo__image {
+  height: 60px;
+  width: 60px;
+}
+
+.logo__name {
+  font-family: 'Core Sans C 65';
+}
+
+.header__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 20px;
+
+  a:hover {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,61 @@
+.ad-coffee_beans {
+  height: 35vh;
+  width: fit-content;
+  margin: 5vh var(--horizontal-padding) 0 var(--horizontal-padding);
+  border-radius: 2vh;
+
+  background: #e9d2cb;
+  background: linear-gradient(315deg, #e9d2cb, #fdf1ee);
+
+  padding: 3vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ad-coffee_beans:hover {
+  .ad-coffee_beans--image {
+    transform: rotate(-10deg) scale(1.1);
+  }
+}
+
+.ad-coffee_beans--text-block {
+  position: relative;
+  display: flex;
+  fill: gray;
+
+  svg {
+    height: 5vh;
+    width: 6vh;
+  }
+}
+
+.ad-coffee_beans--data-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  flex: 0.7;
+}
+
+.ad-coffee_beans--image-block {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.ad-coffee_beans--title {
+  font-size: 5vh;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.ad-coffee_beans--image {
+  transition: all 0.75s ease-out;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  scale: 0.82;
+}
+
+.ad-coffee_beans--action {
+  width: max-content;
+}

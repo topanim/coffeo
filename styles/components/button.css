@@ -1,0 +1,55 @@
+.button {
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 1000px;
+
+  font-family: 'Core Sans C 45';
+
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+
+  img {
+    height: 24px;
+    width: 24px;
+  }
+}
+
+.button:not(.button--ghost):hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.button--icon {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+
+  fill: var(--secondary);
+}
+
+.button--ghost {
+  color: var(--secondary);
+  fill: var(--secondary);
+}
+
+.button--outline {
+  color: var(--secondary);
+  fill: var(--secondary);
+  border: 2px solid var(--light);
+}
+
+.button--filled {
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  fill: var(--primary-foreground);
+}
+
+.button--filled.secondary {
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+  fill: var(--secondary-foreground);
+}

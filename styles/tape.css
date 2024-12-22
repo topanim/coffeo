@@ -1,0 +1,20 @@
+.tape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.tape__wrapper {
+  font-size: 3vh;
+
+  height: min-content;
+  display: flex;
+  justify-content: space-around;
+  width: 200%;
+  margin-left: -2vw;
+  margin-right: -2vw;
+  transform: rotate(-3deg);
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+}

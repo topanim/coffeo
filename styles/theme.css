@@ -1,0 +1,18 @@
+* {
+  --foreground: #080200;
+  --foreground-thin: #a09e9c;
+  --primary: #361305;
+  --primary-foreground: #fcf9f8;
+  --secondary: #723e29;
+  --light: #f4ecea;
+  --secondary-foreground: #fcf9f8;
+  --modal: #261e1b;
+
+  --muted: #dcd6d3;
+
+  --some: #ecd6d0;
+  --some2: #fcf9f8;
+
+  --vertical-padding: 1.5vh;
+  --horizontal-padding: 3vw;
+}
