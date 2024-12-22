@@ -14,12 +14,12 @@
 }
 
 .ad-coffee_beans:hover {
-  .ad-coffee_beans--image {
+  .ad-coffee_beans__image {
     transform: rotate(-10deg) scale(1.1);
   }
 }
 
-.ad-coffee_beans--text-block {
+.ad-coffee_beans__text-block {
   position: relative;
   display: flex;
   fill: gray;
@@ -30,32 +30,32 @@
   }
 }
 
-.ad-coffee_beans--data-block {
+.ad-coffee_beans__data-block {
   display: flex;
   flex-direction: column;
   gap: 2vh;
   flex: 0.7;
 }
 
-.ad-coffee_beans--image-block {
+.ad-coffee_beans__image-block {
   flex: 1;
   display: flex;
   justify-content: center;
 }
 
-.ad-coffee_beans--title {
+.ad-coffee_beans__title {
   font-size: 5vh;
   font-weight: bold;
   color: var(--primary);
 }
 
-.ad-coffee_beans--image {
+.ad-coffee_beans__image {
   transition: all 0.75s ease-out;
   aspect-ratio: 1/1;
   object-fit: cover;
   scale: 0.82;
 }
 
-.ad-coffee_beans--action {
+.ad-coffee_beans__action {
   width: max-content;
 }

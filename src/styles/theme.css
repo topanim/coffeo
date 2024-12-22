@@ -1,4 +1,5 @@
 * {
+  --background: #fcf9f8;
   --foreground: #080200;
   --foreground-thin: #a09e9c;
   --primary: #361305;
@@ -15,4 +16,8 @@
 
   --vertical-padding: 1.5vh;
   --horizontal-padding: 3vw;
+}
+
+body {
+  background-color: var(--background);
 }

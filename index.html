@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./src/styles/tape.css" />
     <link rel="stylesheet" href="./src/styles/coffies.css" />
     <link rel="stylesheet" href="./src/styles/our_coffee_beans.css" />
+    <link rel="stylesheet" href="./src/styles/merchandise.css" />
 
     <title>Coffeo</title>
   </head>
@@ -252,9 +253,9 @@
       </section>
 
       <section id="ad-coffee_beans" class="ad-coffee_beans">
-        <div class="ad-coffee_beans--data-block">
-          <div class="ad-coffee_beans--text-block">
-            <h3 class="ad-coffee_beans--title">
+        <div class="ad-coffee_beans__data-block">
+          <div class="ad-coffee_beans__text-block">
+            <h3 class="ad-coffee_beans__title">
               Check out our <br />
               best coffee beans
             </h3>
@@ -278,7 +279,7 @@
             </svg>
           </div>
 
-          <button class="ad-coffee_beans--action button button--filled primary">
+          <button class="ad-coffee_beans__action button button--filled primary">
             <p>Explore our products</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -290,12 +291,158 @@
             </svg>
           </button>
         </div>
-        <div class="ad-coffee_beans--image-block">
-          <img class="ad-coffee_beans--image" src="./src/assets/coffee_beans.png" alt="" />
+        <div class="ad-coffee_beans__image-block">
+          <img class="ad-coffee_beans__image" src="./src/assets/coffee_beans.png" alt="" />
         </div>
       </section>
 
-      <section id="merchandise"></section>
+      <section id="merchandise" class="merchandise">
+        <div class="merchandise__text">
+          <h3 class="merchandise__text-title">
+            Weekend
+            <p>special products</p>
+          </h3>
+          <p class="merchandise__text-description">
+            Check out our daily special product that you can get with +%20 OFF!
+          </p>
+        </div>
+
+        <div class="merchandise__list-filters">
+          <div class="merchandise__filters-item active">
+            <p class="merchandise__filters-item-name">Accesories</p>
+            <div class="merchandise__filters-item-highlight"></div>
+          </div>
+          <div class="merchandise__filters-item">
+            <p class="merchandise__filters-item-name">Coffee beans</p>
+            <div class="merchandise__filters-item-highlight"></div>
+          </div>
+          <div class="merchandise__filters-item">
+            <p class="merchandise__filters-item-name">Apparel</p>
+            <div class="merchandise__filters-item-highlight"></div>
+          </div>
+          <div class="merchandise__filters-item">
+            <p class="merchandise__filters-item-name">Instant Coffee</p>
+            <div class="merchandise__filters-item-highlight"></div>
+          </div>
+          <div class="merchandise__filters-item">
+            <p class="merchandise__filters-item-name">Boundle</p>
+            <div class="merchandise__filters-item-highlight"></div>
+          </div>
+        </div>
+        <div class="merchandise__list">
+          <div class="merchandise__item">
+            <div class="merchandise__item-sale">
+              <p>%20</p>
+            </div>
+
+            <div class="merchandise__item-visual_presentation_block">
+              <img class="merchandise__item-image" src="./src/assets/coffeepot_2.png" />
+              <div class="merchandise__item-background"></div>
+            </div>
+
+            <div class="merchandise__item-description">
+              <p class="merchandise__item-static_name">Product name</p>
+              <p class="merchandise__item-name">Miele CM6 Thermal Carafe</p>
+            </div>
+
+            <div class="merchandise__item-price-block">
+              <p class="merchandise__item-old_price">$34</p>
+              <p class="merchandise__item-current_price">$12</p>
+            </div>
+
+            <div class="coffies__item-actions">
+              <button class="button button--ghost">
+                <p>Add to cart</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                  <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                </svg>
+              </button>
+
+              <button class="button button--icon button--ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                  <path
+                    d="M 15 7 C 8.9424416 7 4 11.942442 4 18 C 4 22.096154 7.0876448 25.952899 10.851562 29.908203 C 14.615481 33.863507 19.248379 37.869472 22.939453 41.560547 A 1.50015 1.50015 0 0 0 25.060547 41.560547 C 28.751621 37.869472 33.384518 33.863507 37.148438 29.908203 C 40.912356 25.952899 44 22.096154 44 18 C 44 11.942442 39.057558 7 33 7 C 29.523564 7 26.496821 8.8664883 24 12.037109 C 21.503179 8.8664883 18.476436 7 15 7 z M 15 10 C 17.928571 10 20.3663 11.558399 22.732422 15.300781 A 1.50015 1.50015 0 0 0 25.267578 15.300781 C 27.6337 11.558399 30.071429 10 33 10 C 37.436442 10 41 13.563558 41 18 C 41 20.403846 38.587644 24.047101 34.976562 27.841797 C 31.68359 31.30221 27.590312 34.917453 24 38.417969 C 20.409688 34.917453 16.31641 31.30221 13.023438 27.841797 C 9.4123552 24.047101 7 20.403846 7 18 C 7 13.563558 10.563558 10 15 10 z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="merchandise__item">
+            <div class="merchandise__item-sale">
+              <p>%20</p>
+            </div>
+
+            <div class="merchandise__item-visual_presentation_block">
+              <img class="merchandise__item-image" src="./src/assets/coffeepot.png" />
+              <div class="merchandise__item-background"></div>
+            </div>
+
+            <div class="merchandise__item-description">
+              <p class="merchandise__item-static_name">Product name</p>
+              <p class="merchandise__item-name">NEW. Ember Cup</p>
+            </div>
+
+            <div class="merchandise__item-price-block">
+              <p class="merchandise__item-old_price">$9.66</p>
+              <p class="merchandise__item-current_price">$6.48</p>
+            </div>
+
+            <div class="coffies__item-actions">
+              <button class="button button--ghost">
+                <p>Add to cart</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                  <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                </svg>
+              </button>
+
+              <button class="button button--icon button--ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                  <path
+                    d="M 15 7 C 8.9424416 7 4 11.942442 4 18 C 4 22.096154 7.0876448 25.952899 10.851562 29.908203 C 14.615481 33.863507 19.248379 37.869472 22.939453 41.560547 A 1.50015 1.50015 0 0 0 25.060547 41.560547 C 28.751621 37.869472 33.384518 33.863507 37.148438 29.908203 C 40.912356 25.952899 44 22.096154 44 18 C 44 11.942442 39.057558 7 33 7 C 29.523564 7 26.496821 8.8664883 24 12.037109 C 21.503179 8.8664883 18.476436 7 15 7 z M 15 10 C 17.928571 10 20.3663 11.558399 22.732422 15.300781 A 1.50015 1.50015 0 0 0 25.267578 15.300781 C 27.6337 11.558399 30.071429 10 33 10 C 37.436442 10 41 13.563558 41 18 C 41 20.403846 38.587644 24.047101 34.976562 27.841797 C 31.68359 31.30221 27.590312 34.917453 24 38.417969 C 20.409688 34.917453 16.31641 31.30221 13.023438 27.841797 C 9.4123552 24.047101 7 20.403846 7 18 C 7 13.563558 10.563558 10 15 10 z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="merchandise__item">
+            <div class="merchandise__item-sale">
+              <p>%20</p>
+            </div>
+
+            <div class="merchandise__item-visual_presentation_block">
+              <img class="merchandise__item-image" src="./src/assets/coffeepot_2.png" />
+              <div class="merchandise__item-background"></div>
+            </div>
+
+            <div class="merchandise__item-description">
+              <p class="merchandise__item-static_name">Product name</p>
+              <p class="merchandise__item-name">Espro P3 French Press</p>
+            </div>
+
+            <div class="merchandise__item-price-block">
+              <p class="merchandise__item-old_price">$6.88</p>
+              <p class="merchandise__item-current_price">$5.22</p>
+            </div>
+
+            <div class="coffies__item-actions">
+              <button class="button button--ghost">
+                <p>Add to cart</p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                  <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                </svg>
+              </button>
+
+              <button class="button button--icon button--ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                  <path
+                    d="M 15 7 C 8.9424416 7 4 11.942442 4 18 C 4 22.096154 7.0876448 25.952899 10.851562 29.908203 C 14.615481 33.863507 19.248379 37.869472 22.939453 41.560547 A 1.50015 1.50015 0 0 0 25.060547 41.560547 C 28.751621 37.869472 33.384518 33.863507 37.148438 29.908203 C 40.912356 25.952899 44 22.096154 44 18 C 44 11.942442 39.057558 7 33 7 C 29.523564 7 26.496821 8.8664883 24 12.037109 C 21.503179 8.8664883 18.476436 7 15 7 z M 15 10 C 17.928571 10 20.3663 11.558399 22.732422 15.300781 A 1.50015 1.50015 0 0 0 25.267578 15.300781 C 27.6337 11.558399 30.071429 10 33 10 C 37.436442 10 41 13.563558 41 18 C 41 20.403846 38.587644 24.047101 34.976562 27.841797 C 31.68359 31.30221 27.590312 34.917453 24 38.417969 C 20.409688 34.917453 16.31641 31.30221 13.023438 27.841797 C 9.4123552 24.047101 7 20.403846 7 18 C 7 13.563558 10.563558 10 15 10 z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section id="about_us"></section>
 
