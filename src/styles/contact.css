@@ -83,7 +83,6 @@
 }
 
 .contact__input {
-  width: 30vw;
   background-color: white;
   border-radius: 1000px;
   padding: 1vh 2vw;
@@ -92,6 +91,10 @@
   align-items: center;
   gap: 1vw;
   fill: var(--secondary);
+
+  input {
+    width: 20vw;
+  }
 
   svg {
     height: 3vh;
