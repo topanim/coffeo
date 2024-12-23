@@ -1,12 +1,12 @@
 .about {
-  margin: 4vh;
+  margin: 4vh 4vh 4vh 0;
   margin-right: var(--horizontal-margin);
   display: flex;
   justify-content: space-between;
 }
 
 .about__picture_inset {
-  flex: 0.8;
+  flex: 0.7;
 }
 
 .about__main {
@@ -80,6 +80,7 @@
   display: flex;
   align-items: center;
   gap: 2vh;
+  grid: 1;
 }
 
 .about__characteristics-item:hover {
@@ -176,9 +177,6 @@
   border-radius: 1000px;
 }
 
-.about__comment-content {
-}
-
 .about__comment-name {
   font-size: 2.4vh;
   font-weight: bold;
@@ -189,4 +187,6 @@
   font-size: 1.8vh;
   font-weight: 400;
   color: var(--primary);
+  max-height: 4.6vh;
+  overflow: hidden;
 }

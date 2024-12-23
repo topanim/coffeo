@@ -4,12 +4,29 @@ body {
   font-family: 'Greycliff CF';
   overflow-x: hidden;
 }
+
 main {
   display: flex;
   flex-direction: column;
   gap: 3vh;
 }
 
-footer {
-  height: 100vh;
+/* h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+p::selection,
+a::selection*/
+*::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+img,
+button {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }

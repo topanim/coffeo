@@ -7,6 +7,7 @@
   border-radius: 1000px;
 
   font-family: 'Core Sans C 45';
+  cursor: pointer;
 
   svg {
     height: 24px;
