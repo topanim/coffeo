@@ -2,19 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  margin: 10vh 0;
 }
 
 .tape__wrapper {
   font-size: 3vh;
 
+  background: #411d0e;
+  background: linear-gradient(-55deg, #411d0e, #6b3c2a);
+
   height: min-content;
+  padding: 1vh 0;
   display: flex;
   justify-content: space-around;
+
   width: 200%;
+
   margin-left: -2vw;
   margin-right: -2vw;
+
   transform: rotate(-3deg);
-  background-color: var(--primary);
+
   color: var(--primary-foreground);
 }
