@@ -1,4 +1,4 @@
-.contact_form {
+#contact_form {
   position: relative;
   overflow: hidden;
   height: 40vh;
@@ -8,7 +8,7 @@
   background: #e9d2cb;
   background: linear-gradient(315deg, #e9d2cb, #fdf1ee);
 
-  padding: 3vh 5vw;
+  padding: 3vw 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,11 +85,11 @@
 .contact__input {
   background-color: white;
   border-radius: 1000px;
-  padding: 1vh 2vw;
+  padding: 1vh 15px;
 
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 10px;
   fill: var(--secondary);
 
   input {
@@ -99,5 +99,47 @@
   svg {
     height: 3vh;
     width: 3vh;
+  }
+}
+
+@media (width <= 820px) {
+  .contact__form {
+    justify-content: center;
+  }
+
+  .contact__input {
+    input {
+      width: 25vh;
+    }
+  }
+
+  #contact-button {
+    p { display: none; }
+  }
+}
+
+@media (width <= 640px) {
+  
+}
+
+
+@media (width <= 570px) {
+  .contact__picture {
+    display: none;
+  }
+
+  .contact__form {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .contact__input {
+    input {
+      width: 25vh;
+    }
+  }
+
+  #contact-button {
+    p { display: block; }
   }
 }

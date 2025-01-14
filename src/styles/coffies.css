@@ -1,13 +1,8 @@
-.coffies {
+#coffies {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  padding: 20px;
-  margin: 20px 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .coffies__text {
@@ -122,8 +117,12 @@
 
 .coffies__list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-evenly;
-  align-items: end;
   gap: 1vw;
+
+  overflow-x: auto;
+  align-items: center;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
 }

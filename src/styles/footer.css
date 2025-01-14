@@ -4,7 +4,7 @@
   gap: 6vh;
 
   margin-top: 10vh;
-  border-radius: 10vh 10vh 0 0;
+  border-radius: 50px 50px 0 0;
   background-color: var(--modal);
 
   a {
@@ -18,14 +18,22 @@
 
 .footer__content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
+  gap: 5vh;
   padding: 6vh 5vw 0 5vw;
+}
+
+.footer__company-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5vw;
 }
 
 .footer__chapters {
   display: flex;
   flex-wrap: wrap;
-  gap: 5vw;
+  gap: 4vw;
 }
 
 .footer__chapter {
@@ -103,4 +111,9 @@
   aspect-ratio: 1/1;
   border-radius: 1000px;
   background-color: lightgrey;
+}
+
+.footer__map {
+  border-radius: 2vw;
+  height: 110px;
 }

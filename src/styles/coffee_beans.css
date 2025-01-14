@@ -59,3 +59,24 @@
 .ad-coffee_beans__action {
   width: max-content;
 }
+
+@media (width <= 900px) {
+  .ad-coffee_beans__image  {
+    display: none;
+  }
+
+  .ad-coffee_beans {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+
+    svg {
+      display: none;
+    }
+  }
+
+  .ad-coffee_beans__text-block {
+    width: max-content;
+  }
+}

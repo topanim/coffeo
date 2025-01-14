@@ -200,3 +200,26 @@
   max-height: 4.6vh;
   overflow: hidden;
 }
+
+@media (width <= 1100px) {
+  .about__characteristics_grid {
+    grid-template-columns: repeat(1, auto);
+    /* grid-template-rows: repeat(2, auto); */
+  }  
+}
+
+@media (width <= 960px) {
+  .about__picture_inset {
+    display: none;
+  }
+
+  .about__characteristics_grid {
+    grid-template-columns: repeat(2, auto);
+  }  
+}
+
+@media (width <= 660px) {
+  .about__characteristics_grid {
+    grid-template-columns: repeat(1, auto);
+  }  
+}

@@ -25,3 +25,10 @@
 
   color: var(--primary-foreground);
 }
+
+
+@media (width <= 640px) {
+  .tape__item:nth-last-child(-n+2) {
+    display: none;
+  }
+}
