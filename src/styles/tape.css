@@ -28,7 +28,7 @@
 
 
 @media (width <= 640px) {
-  .tape__item:nth-last-child(-n+2) {
+  .tape__item:nth-last-child(-n+3) {
     display: none;
   }
 }

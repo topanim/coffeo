@@ -32,6 +32,7 @@
 
 .footer__chapters {
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   gap: 4vw;
 }
@@ -116,4 +117,10 @@
 .footer__map {
   border-radius: 2vw;
   height: 110px;
+}
+
+@media (width <= 550px){
+  .footer__chapters {
+    width: 100%;
+  }
 }
