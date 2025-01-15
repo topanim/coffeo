@@ -63,6 +63,8 @@
 }
 
 .merchandise__list {
+  padding-bottom: 10px;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   gap: 2vh;
@@ -96,6 +98,8 @@
 
 .merchandise__item {
   position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
 
   padding: 2vh 0;
   width: 44vh;
