@@ -52,7 +52,61 @@
   }
 }
 
+.header__menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
 
-.landing__actions-explore {
-  
+.header__menu-content {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header__menu-close_button {
+  display: none;
+}
+
+@media (width <= 940px) {
+  .header__menu-content {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    gap: 20px;
+  }
+
+  .header__menu-close_button {
+    display: block;
+    margin-left: auto;
+    position: fixed;
+    right: 10px;
+    z-index: 4;
+  }
+
+  .header__menu-wrapper {
+    transition: all 0.8s ease-in-out;
+    padding-top: 80px;
+    gap: 10px;
+
+    z-index: 3;
+    height: 100%;
+    max-width: 300px;
+    position: fixed;
+    right: 0;
+    top: 0;
+
+    background-color: whitesmoke;
+    border-radius: 40px 0 0 40px;
+  }
+
+  .header__menu-wrapper.close {
+    margin-right: -400px;
+  }
+
+  .header__menu-list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

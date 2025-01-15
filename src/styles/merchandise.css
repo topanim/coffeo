@@ -74,7 +74,10 @@
   align-items: center;
   scroll-snap-type: x mandatory;
   scroll-snap-align: start;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
 }
+
 
 .merchandise__filters-item.active {
   .merchandise__filters-item-name {

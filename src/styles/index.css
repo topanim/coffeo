@@ -1,5 +1,6 @@
 html,
 body {
+  scroll-behavior: smooth;
   width: 100%;
   font-family: 'Greycliff CF';
   overflow-x: hidden;
