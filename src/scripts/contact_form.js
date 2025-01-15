@@ -7,5 +7,3 @@ contactButton.onclick = (e) => {
     console.log(contactLink)
     window.location.href = contactLink
 }
-
-console.log(userEmailTextField)

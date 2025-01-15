@@ -14,7 +14,7 @@
   align-items: center;
 }
 
-.contact_form:hover {
+#contact_form:hover {
   .contact__picture--left {
     transform: rotate(40deg) scale(1.2);
   }
@@ -23,6 +23,7 @@
     transform: rotate(10deg) scale(1.2);
   }
 }
+
 .contact__picture {
   transition: all 1s ease-out;
   z-index: 1;

@@ -71,6 +71,10 @@
 }
 
 @media (width <= 940px) {
+  .button--outline {
+    border: none;
+  }
+
   .header__menu-content {
     align-items: flex-start;
     flex-direction: column-reverse;
@@ -97,7 +101,7 @@
     right: 0;
     top: 0;
 
-    background-color: whitesmoke;
+    background-color: blanchedalmond;
     border-radius: 40px 0 0 40px;
   }
 

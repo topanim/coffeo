@@ -112,6 +112,10 @@
   height: 65%;
 }
 
+@media (width <= 940px) {
+  .landing__text-block {
+   padding: 0; 
+  }
 
 @media (width <= 952px) {
   .landing__title {
