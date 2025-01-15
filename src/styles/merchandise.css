@@ -9,6 +9,7 @@
 }
 
 .merchandise__text {
+  padding: 0 5vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,9 +36,17 @@
 }
 
 .merchandise__list-filters {
+  padding: 0 5vh;
+  width: 100%;
   display: flex;
   align-items: start;
   gap: 4vw;
+  overflow-x: auto;
+  white-space: nowrap;
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
 }
 
 .merchandise__filters-item-highlight {
@@ -49,6 +58,8 @@
 }
 
 .merchandise__filters-item {
+  flex-shrink: 0;
+
   transition: all 0.8s ease;
   display: flex;
   flex-direction: column;
@@ -67,11 +78,11 @@
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   gap: 2vh;
 
   overflow-x: auto;
   white-space: nowrap;
-  align-items: center;
   scroll-snap-type: x mandatory;
   scroll-snap-align: start;
   -ms-overflow-style: none;
