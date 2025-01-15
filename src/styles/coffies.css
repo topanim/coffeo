@@ -28,11 +28,12 @@
 
 .coffies__item {
   position: relative;
-  width: 34vh;
+  width: 38vh;
   height: 60vh;
   display: flex;
   justify-content: center;
   align-items: end;
+  flex-shrink: 0;
 }
 
 .coffies__item:hover {
@@ -116,10 +117,11 @@
 }
 
 .coffies__list {
+  padding: 0 20px 10px 20px;
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
   justify-content: space-evenly;
-  gap: 1vw;
+  gap: 20px;
 
   overflow-x: auto;
   align-items: center;

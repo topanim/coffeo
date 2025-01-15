@@ -118,14 +118,13 @@
   }
 }
 
-@media (width <= 640px) {
-  
-}
-
-
 @media (width <= 570px) {
   .contact__picture {
     display: none;
+  }
+  
+  #contact__form {
+    height: auto;
   }
 
   .contact__form {
