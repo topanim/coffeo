@@ -25,7 +25,7 @@
   font-weight: bold;
   color: var(--primary);
 
-  p {
+  span {
     color: var(--muted);
   }
 }
@@ -39,7 +39,8 @@
   padding: 0 5vh;
   width: 100%;
   display: flex;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
   gap: 4vw;
   overflow-x: auto;
   white-space: nowrap;
